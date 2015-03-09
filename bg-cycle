@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#
+# bg-cycle.py wrapper for sudo & refreshing background.
+#
+
+sudo bg-cycle.py
+sudo chown -R raehik:raehik "$HOME/.backgrounds"
+sh "$HOME/.fehbg"
