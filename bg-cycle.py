@@ -5,8 +5,8 @@
 
 import os, random, glob, shutil, subprocess
 
-#bg_dir = os.path.expanduser("~") + "/.backgrounds/"
-bg_dir = "/home/raehik/.backgrounds/"
+#bg_dir = os.path.expanduser("~") + "/.wallpapers/"
+bg_dir = "/home/raehik/.wallpapers/"
 image_dir = "orig/"
 exts = ["png", "jpg"]
 

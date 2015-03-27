@@ -4,5 +4,5 @@
 #
 
 sudo bg-cycle.py
-sudo chown -R raehik:raehik "$HOME/.backgrounds"
+sudo chown -R raehik:raehik "$HOME/.wallpapers"
 sh "$HOME/.fehbg"
