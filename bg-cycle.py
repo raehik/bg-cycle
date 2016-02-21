@@ -10,8 +10,7 @@ import glob
 import shutil
 import subprocess
 
-#bg_dir = os.path.expanduser("~") + "/.backgrounds/"
-bg_dir = "/home/raehik/.assets/backgrounds/"
+bg_dir = os.path.expanduser("~/.assets/backgrounds/")
 image_dir = "orig/"
 exts = ["png", "jpg"]
 
