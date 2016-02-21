@@ -6,5 +6,5 @@
 bg_dir="$HOME/.assets/backgrounds"
 
 sudo bg-cycle.py "$1" "$2"
-sudo chown -R "$USER":"$USER" "$bg_dir"
+sudo chown -R "$(id -u):$(id -g)" "$bg_dir"
 "$bg_dir/set-desktop-background"
