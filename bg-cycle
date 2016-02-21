@@ -3,6 +3,8 @@
 # bg-cycle.py wrapper for sudo & refreshing background.
 #
 
+bg_dir="$HOME/.assets/backgrounds"
+
 sudo bg-cycle.py "$1" "$2"
-sudo chown -R raehik:raehik "$HOME/.backgrounds"
-sh "$HOME/.fehbg"
+sudo chown -R raehik:raehik "$bg_dir"
+"$bg_dir/set-desktop-background"

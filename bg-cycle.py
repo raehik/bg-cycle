@@ -11,7 +11,7 @@ import shutil
 import subprocess
 
 #bg_dir = os.path.expanduser("~") + "/.backgrounds/"
-bg_dir = "/home/raehik/.backgrounds/"
+bg_dir = "/home/raehik/.assets/backgrounds/"
 image_dir = "orig/"
 exts = ["png", "jpg"]
 
